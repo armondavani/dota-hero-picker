@@ -1,0 +1,84 @@
+/* Entire Page */
+#Main{
+  display: flex;
+  flex-direction: column;
+}
+
+/* Top Box Section */
+#TopBox{
+  display: flex;
+  justify-content: center;
+  height: 42px;
+  border: 2px red solid
+}
+
+/* Bottom Box Section */
+#BottomBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: calc(100vh - 126px);
+  padding: 42px;
+}
+
+/* Left Box Section */
+#LeftBox {
+  border: 2px black solid
+}
+
+/* Center Box Section */
+#CenterBox {
+  border: 2px blue solid
+}
+
+/* Right Box Section */
+#RightBox{
+  border: 2px green solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#CollapsibleContainerBox{
+  display: flex;
+  overflow-x: hidden;
+  width: 30px;
+  transition: 0.8s;
+  border-right: 4px blue solid
+}
+
+#ShrinkRightButtonDiv{
+  /* overflow-x: hidden;
+  width: 0px; */
+  justify-self: center;
+  /* margin-bottom: auto; */
+  /* margin-top: auto; */
+}
+
+#ShrinkRightButton{
+  width: 50px;
+}
+
+#OpenLeftButtonDiv{
+  border: 2px black solid;
+  align-self: center;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+#RightsideContentBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-x: hidden;
+  width: 150px;
+  transition: 0.8s;
+}
+
+#SavedGridBox{
+  justify-self: flex-end;
+  margin-top: 0px;
+  border: 2px black solid;
+}
